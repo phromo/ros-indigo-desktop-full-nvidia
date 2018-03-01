@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: .      
+    image: 'lindwaltz/ros-indigo-desktop-full-nvidia'
+    command: bash -c 'echo this is a base img'
