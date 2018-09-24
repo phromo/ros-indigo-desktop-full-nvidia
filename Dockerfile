@@ -1,4 +1,4 @@
-FROM osrf/ros:indigo-desktop-full
+FROM osrf/ros:kinetic-desktop-full
 
 RUN rm -rf /var/lib/apt/lists/*
 
